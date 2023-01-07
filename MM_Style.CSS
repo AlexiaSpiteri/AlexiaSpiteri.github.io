@@ -15,13 +15,6 @@ body {
     padding: 0;
 }
 
-div.container {
-    justify-content: center;
-    overflow: hidden;
-    width: 100%;
-    padding: 0;
-}
-
 footer {
     background-color: #FFCCCC;
     margin: auto;
@@ -48,41 +41,35 @@ nav {
     CLASSES
 ***************** */
 
-.blog-item {
-    margin-bottom: 2em;
+.blog-container {
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
-.blog-item p {
+.blog-text>p {
+    text-align: justify;
     margin: 1em 0;
     font-size: larger;
-}
-
-.blog-post article {
-    margin-left: 2em;
-    margin-right: 2em;
-    max-width: none;
-}
-
-.blog-post header {
-    margin-top: 4em;
-    text-align: center;
-}
-
-.blog-post .category {
-    color: #FAE1DF;
 }
 
 .brand-logo {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 1em;
     width: 400px;
+    margin-bottom: 60px;
+    margin-top: 60px;
 }
 
 .category-time {
     color: #9ea3b0;
     font-size: 1.5em;
+    margin: 0;
+}
+
+.category-time,
+.title {
+    text-align: center;
 }
 
 .comments {
@@ -106,36 +93,6 @@ nav {
     width: 16px;
 }
 
-.container {
-    margin: 0;
-    max-width: 100%;
-    overflow: hidden;
-    padding: 0;
-}
-
-.container .button-collaborate {
-    background-color: #FFCCCC;
-    border-radius: 10px;
-    color: #003333;
-    margin: 0;
-    margin-right: 2em;
-}
-
-.container .button-collaborate:hover {
-    background-color: #FAE1DF;
-}
-
-.container .button-contact {
-    background-color: #FFCCCC;
-    border-radius: 10px;
-    color: #003333;
-    margin: 0;
-}
-
-.container .button-contact:hover {
-    background-color: #FAE1DF;
-}
-
 .footbar-links {
     list-style: none;
 }
@@ -145,35 +102,18 @@ nav {
 }
 
 .navbar {
-    padding-bottom: 16px;
-    padding-top: 16px;
-    padding-left: 0;
-    padding-right: 0;
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    justify-content: space-between;
 }
 
 .navbar a {
     color: #FFCCCC;
-    display: block;
-    padding: .5em;
     text-decoration: none;
-}
-
-.navbar .container {
-    align-items: center;
-    display: flex;
-    justify-content: space-between 30px;
-}
-
-.navbar-nav {
-    align-items: center;
-    display: flex;
-    float: none;
-    list-style: none;
-    padding: 0;
-    position: static;
-    margin: 0 .5em;
-    margin-left: 5em;
-    margin-right: 5em;
+    margin-right: 60px;
 }
 
 .navbar a:hover {
