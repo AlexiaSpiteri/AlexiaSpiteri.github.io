@@ -94,6 +94,7 @@ nav {
 }
 
 .container {
+    justify-content: center;
     margin: 0;
     max-width: 100%;
     width: 100%;
@@ -129,8 +130,8 @@ nav {
 .navbar {
     padding-bottom: 16px;
     padding-top: 16px;
-    padding-left: 32px;
-    padding-right: 32px;
+    padding-left: 0;
+    padding-right: 0;
 }
 
 .navbar a {
