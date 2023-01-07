@@ -54,6 +54,7 @@ nav {
 
 .blog-item p {
     margin: 1em 0;
+    font-size: larger;
 }
 
 .blog-post article {
@@ -68,7 +69,7 @@ nav {
 }
 
 .blog-post .category {
-    color: #003333;
+    color: #FAE1DF;
 }
 
 .brand-logo {
