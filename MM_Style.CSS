@@ -7,6 +7,8 @@
 ***************** */
 
 body {
+    background-color: #1f3e3e;
+    color: white;
     font-family: 'Roboto Slab', 'Times New Roman', Times, serif;
     line-height: 1.5;
     margin: 0;
@@ -39,7 +41,7 @@ ul {
 }
 
 nav {
-    background-color: #003333;
+    background-color: #1f3e3e;
 }
 
 /* ***************
@@ -70,12 +72,11 @@ nav {
 }
 
 .brand-logo {
-    align-items: center;
-    box-sizing: border-box;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 240px;
+    margin-top: 1em;
+    width: 400px;
 }
 
 .category-time {
@@ -160,10 +161,6 @@ nav {
     align-items: center;
     display: flex;
     justify-content: space-between 30px;
-}
-
-.navbar img {
-    max-width: 200px;
 }
 
 .navbar-nav {
