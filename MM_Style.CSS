@@ -1,0 +1,178 @@
+* {
+    box-sizing: border-box;
+}
+
+/* ***************
+    TAGS
+***************** */
+
+body {
+    font-family: 'Roboto Slab', 'Times New Roman', Times, serif;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    background-color: #FFCCCC;
+    margin: auto;
+    padding-bottom: 16px;
+    padding-top: 16px;
+    padding-left: 64px;
+    padding-right: 64px;
+}
+
+ol,
+ul {
+    margin: 0;
+}
+
+nav {
+    background-color: #003333;
+}
+
+/* ***************
+    CLASSES
+***************** */
+
+.blog-item {
+    margin-bottom: 2em;
+}
+
+.blog-item p {
+    margin: 1em 0;
+}
+
+.blog-post article {
+    margin-left: 2em;
+    margin-right: 2em;
+    max-width: none;
+}
+
+.blog-post header {
+    margin-top: 4em;
+    text-align: center;
+}
+
+.blog-post .category {
+    color: #003333;
+}
+
+.brand-logo {
+    align-items: center;
+    box-sizing: border-box;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 240px;
+}
+
+.Category-Time {
+    color: #FAE1DF;
+    font-size: 1em;
+}
+
+.comments {
+    align-items: baseline;
+    color: #FAE1DF;
+    display: flex;
+    float: none;
+    justify-content: space-between;
+    position: relative;
+    padding: 0;
+}
+
+.comments-item {
+    justify-content: space-between;
+    list-style: none;
+    text-decoration: none;
+}
+
+.comments-item .logo {
+    height: 16px;
+    width: 16px;
+}
+
+.container {
+    margin: 0;
+    max-width: 100%;
+}
+
+.container .button-collaborate {
+    background-color: #FFCCCC;
+    border-radius: 10px;
+    color: #003333;
+    margin: 0;
+    margin-right: 2em;
+}
+
+.container .button-contact {
+    background-color: #FFCCCC;
+    border-radius: 10px;
+    color: #003333;
+    margin: 0;
+}
+
+.container .button:hover {
+    background-color: #FAE1DF;
+}
+
+.footbar-links {
+    list-style: none;
+}
+
+.image {
+    width: 100%;
+}
+
+.navbar {
+    padding-bottom: 16px;
+    padding-top: 16px;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
+.navbar a {
+    color: #FFCCCC;
+    display: block;
+    padding: .5em;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    color: #FAE1DF;
+}
+
+.navbar .container {
+    align-items: center;
+    display: flex;
+    justify-content: space-between 30px;
+}
+
+.navbar img {
+    max-width: 200px;
+}
+
+.navbar-nav {
+    align-items: center;
+    display: flex;
+    float: none;
+    list-style: none;
+    padding: 0;
+    position: static;
+    margin: 0 .5em;
+    margin-left: 5em;
+    margin-right: 5em;
+}
+
+.search input {
+    align-items: baseline;
+    background-color: transparent;
+    border: none;
+    display: block;
+    fill: none;
+    float: right;
+    margin: 0;
+    padding: 6px;
+    width: 100%;
+}
