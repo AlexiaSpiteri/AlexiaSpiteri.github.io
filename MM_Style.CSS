@@ -176,18 +176,17 @@ nav {
     margin-right: 5em;
 }
 
-.nav-menu:hover {
+.navbar a:hover {
     color: #9ea3b0;
 }
 
-.search input {
-    align-items: baseline;
+.search {
     background-color: transparent;
     border: none;
-    display: block;
-    fill: none;
-    float: right;
-    margin: 0;
-    padding: 6px;
-    width: 100%;
+    color: white;
+}
+
+.search:focus {
+    outline: none;
+    font-size: larger;
 }
