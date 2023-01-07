@@ -13,6 +13,12 @@ body {
     padding: 0;
 }
 
+div.container {
+    justify-content: center;
+    width: 100%;
+    padding: 0;
+}
+
 footer {
     background-color: #FFCCCC;
     margin: auto;
@@ -94,10 +100,8 @@ nav {
 }
 
 .container {
-    justify-content: center;
     margin: 0;
     max-width: 100%;
-    width: 100%;
     padding: 0;
 }
 
