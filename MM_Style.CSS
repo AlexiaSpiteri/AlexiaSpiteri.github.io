@@ -79,7 +79,7 @@ nav {
 }
 
 .category-time {
-    color: #FAE1DF;
+    color: #9ea3b0;
     font-size: 1.5em;
 }
 
@@ -119,6 +119,10 @@ nav {
     margin-right: 2em;
 }
 
+.container .button-collaborate:hover {
+    background-color: #FAE1DF;
+}
+
 .container .button-contact {
     background-color: #FFCCCC;
     border-radius: 10px;
@@ -126,7 +130,7 @@ nav {
     margin: 0;
 }
 
-.container .button:hover {
+.container .button-contact:hover {
     background-color: #FAE1DF;
 }
 
@@ -146,14 +150,10 @@ nav {
 }
 
 .navbar a {
-    color: #FAE1DF;
+    color: #FFCCCC;
     display: block;
     padding: .5em;
     text-decoration: none;
-}
-
-.navbar a:hover {
-    color: #FAE1DF;
 }
 
 .navbar .container {
@@ -176,6 +176,10 @@ nav {
     margin: 0 .5em;
     margin-left: 5em;
     margin-right: 5em;
+}
+
+.nav-menu:hover {
+    color: #9ea3b0;
 }
 
 .search input {
