@@ -15,6 +15,7 @@ body {
 
 div.container {
     justify-content: center;
+    overflow: hidden;
     width: 100%;
     padding: 0;
 }
