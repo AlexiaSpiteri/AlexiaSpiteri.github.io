@@ -17,7 +17,7 @@ body {
 
 footer {
     background-color: #FFCCCC;
-    padding-bottom: 160px;
+    padding-bottom: 210px;
 }
 
 h1.title {
@@ -150,6 +150,10 @@ nav {
     margin-bottom: 20px;
 }
 
+.footbar-subscribe {
+    margin-left: auto;
+}
+
 .footbar-subscribe img {
     height: 20px;
     width: 20px;
@@ -165,9 +169,28 @@ nav {
     margin: 0;
 }
 
+.footbar-subscribe .button-subscribe {
+    background-color: #9ea3b0;
+    border-radius: 5px;
+    color: #1f3e3e;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 0.5em;
+}
+
 .foot-logo {
     width: 400px;
     float: left;
     display: block;
     padding: 2%;
+}
+
+.email {
+    border: 1px solid #1f3e3e;
+    border-radius: 5px;
+    padding: 1em;
+    font-size: 15px;
+    background-color: transparent;
+    color: #0d1f2d;
+    padding: 0.75em;
 }
