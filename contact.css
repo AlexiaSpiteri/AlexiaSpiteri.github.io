@@ -43,20 +43,21 @@ nav {
     CLASSES
 ***************** */
 
-.about-container {
+.contact-container {
     margin-left: 10%;
     margin-right: 10%;
     margin-bottom: 60px;
 }
 
-.about-container img {
+.contact-container img {
     width: 50%;
     border-radius: 5px;
     filter: drop-shadow(0px 17px 14px #0d1f2d);
 }
 
-.about-post {
+.contact-post {
     display: flex;
+    justify-content: space-between;
 }
 
 .brand-logo {
@@ -208,11 +209,59 @@ nav {
 }
 
 .text {
-    margin-left: 40px;
+    margin-right: 40px;
     text-align: justify;
     margin-bottom: 40px;
+    font-size: 15px;
+    font-family: 'Goudy Old Style', 'Candara Light', 'Bell MT', Times, serif;
+    line-height: 1.5;
 }
 
-.subtitle-text {
-    margin-bottom: 60px;
+.text>input {
+    border: 1.5px solid #0d1f2d;
+    border-radius: 5px;
+    padding: 16px;
+    width: 400px;
+    background-color: #f9efee;
+    color: #0d1f2d;
+    margin-right: 100px;
+    margin-bottom: 40px;
+    font-size: 15px;
+    font-family: 'Goudy Old Style', 'Candara Light', 'Bell MT', Times, serif;
+    line-height: 1.5;
+}
+
+.text .message {
+    height: 200px;
+    font-size: 15px;
+    font-family: 'Goudy Old Style', 'Candara Light', 'Bell MT', Times, serif;
+    line-height: 1.5;
+}
+
+.text>button {
+    border: 1.5px solid #0d1f2d;
+    background-color: #0d1f2d;
+    border-radius: 5px;
+    padding: 12px 20px;
+    color: #FFCCCC;
+    font-size: 15px;
+    cursor: pointer;
+    width: 400px;
+}
+
+.text>button:hover {
+    background-color: #FFCCCC;
+    color: #0d1f2d;
+}
+
+textarea {
+    width: 400px;
+    padding: 16px;
+    border-radius: 5px;
+    border: 1.5px solid #0d1f2d;
+    background-color: #f9efee;
+    color: #0d1f2d;
+    margin-right: 100px;
+    margin-bottom: 40px;
+    resize: vertical;
 }
