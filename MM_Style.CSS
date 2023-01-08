@@ -17,11 +17,11 @@ body {
 
 footer {
     background-color: #FFCCCC;
-    margin: auto;
-    padding-bottom: 16px;
-    padding-top: 16px;
-    padding-left: 64px;
-    padding-right: 64px;
+    margin-top: 20px;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 80px;
 }
 
 h1.title {
@@ -104,10 +104,6 @@ nav {
     color: #FAE1DF;
 }
 
-.footbar-links {
-    list-style: none;
-}
-
 .image {
     width: 100%;
     border-radius: 5px;
@@ -141,4 +137,39 @@ nav {
 .search:focus {
     outline: none;
     font-size: larger;
+}
+
+.foot-links {
+    display: flex;
+    justify-content: center;
+}
+
+.foot-links a {
+    text-decoration: none;
+    color: #0d1f2d;
+    display: block;
+}
+
+.footbar-subscribe img {
+    height: 20px;
+    width: 20px;
+    margin-right: 5px;
+}
+
+.footbar-subscribe>p {
+    color: #1f3e3e;
+    font-size: 2em;
+}
+
+.footer>img {
+    display: block;
+    margin-right: auto;
+    width: 400px;
+    margin-bottom: 60px;
+}
+
+.foot-logo {
+    width: 400px;
+    margin-bottom: 60px;
+    margin-top: 60px;
 }
