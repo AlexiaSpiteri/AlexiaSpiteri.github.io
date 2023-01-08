@@ -17,7 +17,13 @@ body {
 
 footer {
     background-color: #FFCCCC;
-    padding-bottom: 210px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 h1.title {
@@ -137,60 +143,51 @@ nav {
 
 .foot-links a {
     text-decoration: none;
-    color: #0d1f2d;
+    color: #1f3e3e;
     display: block;
 }
 
 .col1 {
-    margin-right: 60px;
+    margin-right: 80px;
 }
 
 .col1>a,
 .col2>a {
-    margin-bottom: 20px;
-}
-
-.footbar-subscribe {
-    margin-left: auto;
-}
-
-.footbar-subscribe img {
-    height: 20px;
-    width: 20px;
-    margin-right: 5px;
-}
-
-.footbar-subscribe>p {
-    color: #1f3e3e;
-    font-size: 2em;
-    float: right;
-    box-sizing: border-box;
-    padding: 2%;
-    margin: 0;
-}
-
-.footbar-subscribe .button-subscribe {
-    background-color: #9ea3b0;
-    border-radius: 5px;
-    color: #1f3e3e;
-    text-decoration: none;
-    font-size: 20px;
-    padding: 0.5em;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .foot-logo {
-    width: 400px;
-    float: left;
+    width: 250px;
     display: block;
-    padding: 2%;
 }
 
-.email {
-    border: 1px solid #1f3e3e;
+.footer-subscribe>p {
+    color: #1f3e3e;
+    font-size: 2em;
+}
+
+.footer-subscribe>input {
+    border: 1.5px solid #0d1f2d;
     border-radius: 5px;
-    padding: 1em;
+    padding: 8px;
     font-size: 15px;
-    background-color: transparent;
+    background-color: #f9efee;
     color: #0d1f2d;
-    padding: 0.75em;
+}
+
+.footer-subscribe>button {
+    border: 1.5px solid #0d1f2d;
+    background-color: #0d1f2d;
+    border-radius: 5px;
+    color: #FFCCCC;
+    font-size: 15px;
+    padding: 8px;
+}
+
+.footer-subscribe>img {
+    height: 20px;
+    width: 20px;
+    margin-right: 5px;
+    margin-top: 2em;
 }
