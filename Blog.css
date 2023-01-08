@@ -34,6 +34,7 @@ nav {
     background-color: #1f3e3e;
 }
 
+
 /* ***************
     CLASSES
 ***************** */
@@ -41,12 +42,14 @@ nav {
 .blog-container {
     margin-left: 10%;
     margin-right: 10%;
+    box-sizing: border-box;
 }
 
-.blog-text>p {
-    text-align: justify;
-    margin: 1em 0;
-    font-size: 1.5em;
+.blog-container .thumbnail {
+    width: 154px;
+    border-radius: 5px;
+    display: block;
+    max-width: 154px;
 }
 
 .brand-logo {
@@ -58,58 +61,8 @@ nav {
     margin-top: 60px;
 }
 
-.category-time {
-    color: #9ea3b0;
-    font-size: 1.5em;
-    margin: 0;
-}
-
-.category-time a {
+.category {
     color: #FAE1DF;
-    text-decoration: none;
-}
-
-.category-time,
-.title {
-    text-align: center;
-}
-
-.col1 {
-    margin-right: 80px;
-}
-
-.col1>a,
-.col2>a {
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-.comments {
-    color: #FFCCCC;
-    display: flex;
-    margin-top: 60px;
-    margin-bottom: 60px;
-    border-bottom: 2px solid #FFCCCC;
-}
-
-.comments a {
-    text-decoration: none;
-    color: #FAE1DF;
-}
-
-.comments .logo {
-    height: 20px;
-    width: 20px;
-    margin-right: 5px;
-}
-
-.comments .number-comments {
-    color: #FAE1DF;
-}
-
-.comments .share {
-    margin-left: auto;
-    margin-right: 15px;
 }
 
 .dropdown {
@@ -163,58 +116,6 @@ nav {
 
 .dropdown:hover .dropbtn {
     background-color: transparent;
-}
-
-.foot-links {
-    display: flex;
-    justify-content: center;
-}
-
-.foot-links a {
-    text-decoration: none;
-    color: #1f3e3e;
-    display: block;
-}
-
-.foot-logo {
-    width: 250px;
-    display: block;
-}
-
-.footer-subscribe>p {
-    color: #1f3e3e;
-    font-size: 2em;
-}
-
-.footer-subscribe>input {
-    border: 1.5px solid #0d1f2d;
-    border-radius: 5px;
-    padding: 8px;
-    font-size: 15px;
-    background-color: #f9efee;
-    color: #0d1f2d;
-}
-
-.footer-subscribe>button {
-    border: 1.5px solid #0d1f2d;
-    background-color: #0d1f2d;
-    border-radius: 5px;
-    color: #FFCCCC;
-    font-size: 15px;
-    padding: 8px;
-}
-
-.footer-subscribe>img {
-    height: 20px;
-    width: 20px;
-    margin-right: 5px;
-    margin-top: 2em;
-}
-
-.image {
-    width: 100%;
-    border-radius: 5px;
-    filter: drop-shadow(0px 17px 14px #0d1f2d);
 }
 
 .navbar {
