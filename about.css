@@ -30,25 +30,39 @@ h1.title {
     font-size: 2em;
 }
 
+h2 {
+    color: #FAE1DF;
+    text-decoration: none;
+}
+
 nav {
     background-color: #1f3e3e;
 }
-
 
 /* ***************
     CLASSES
 ***************** */
 
-.blog-container {
+.about-container {
     margin-left: 10%;
     margin-right: 10%;
-    box-sizing: border-box;
-    display: block;
+    margin-bottom: 60px;
 }
 
-.blog-container img {
-    width: 200px;
+.about-container img {
+    width: 50%;
     border-radius: 5px;
+    filter: drop-shadow(0px 17px 14px #0d1f2d);
+}
+
+.about-post {
+    display: flex;
+}
+
+.blog-text>p {
+    text-align: justify;
+    margin: 1em 0;
+    font-size: 1.5em;
 }
 
 .brand-logo {
@@ -59,26 +73,6 @@ nav {
     margin-bottom: 60px;
     margin-top: 60px;
 }
-
-.caption {
-    margin-left: 20px;
-}
-
-.caption>a {
-    display: block;
-    text-align: right;
-    text-decoration: none;
-    color: #FFCCCC;
-}
-
-.caption>p {
-    padding-right: 10%;
-}
-
-.category {
-    color: #FAE1DF;
-}
-
 
 .col1 {
     margin-right: 80px;
@@ -94,7 +88,6 @@ nav {
     position: relative;
     display: inline-block;
     font-family: 'Goudy Old Style', 'Candara Light', 'Bell MT', Times, serif;
-    border-radius: 20px;
 }
 
 .dropbtn {
@@ -122,10 +115,6 @@ nav {
     border-radius: 5px;
 }
 
-.dropdown-content :hover {
-    background-color: #9ea3b0
-}
-
 .dropdown-content a {
     color: #1f3e3e;
     padding: 12px 16px;
@@ -135,6 +124,10 @@ nav {
 
 .dropdown-content a:hover {
     color: #1f3e3e;
+}
+
+.dropdown-content :hover {
+    background-color: #9ea3b0
 }
 
 .dropdown:hover .dropdown-content {
@@ -218,9 +211,4 @@ nav {
 .search:focus {
     outline: none;
     font-size: larger;
-}
-
-.thumbnails {
-    display: flex;
-    margin-bottom: 60px;
 }
