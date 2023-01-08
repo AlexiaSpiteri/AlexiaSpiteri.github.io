@@ -17,20 +17,11 @@ body {
 
 footer {
     background-color: #FFCCCC;
-    margin-top: 20px;
-    margin-bottom: auto;
-    margin-left: auto;
-    margin-right: auto;
-    padding-bottom: 80px;
+    padding-bottom: 160px;
 }
 
 h1.title {
     font-size: 2em;
-}
-
-ol,
-ul {
-    margin: 0;
 }
 
 nav {
@@ -150,6 +141,15 @@ nav {
     display: block;
 }
 
+.col1 {
+    margin-right: 60px;
+}
+
+.col1>a,
+.col2>a {
+    margin-bottom: 20px;
+}
+
 .footbar-subscribe img {
     height: 20px;
     width: 20px;
@@ -159,17 +159,15 @@ nav {
 .footbar-subscribe>p {
     color: #1f3e3e;
     font-size: 2em;
-}
-
-.footer>img {
-    display: block;
-    margin-right: auto;
-    width: 400px;
-    margin-bottom: 60px;
+    float: right;
+    box-sizing: border-box;
+    padding: 2%;
+    margin: 0;
 }
 
 .foot-logo {
     width: 400px;
-    margin-bottom: 60px;
-    margin-top: 60px;
+    float: left;
+    display: block;
+    padding: 2%;
 }
