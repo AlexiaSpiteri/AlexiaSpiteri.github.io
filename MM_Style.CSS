@@ -140,10 +140,7 @@ nav {
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
-}
-
-.dropdown-content :hover {
-    background-color: #9ea3b0
+    border-radius: 5px;
 }
 
 .dropdown-content a {
@@ -155,6 +152,10 @@ nav {
 
 .dropdown-content a:hover {
     color: #1f3e3e;
+}
+
+.dropdown-content :hover {
+    background-color: #9ea3b0
 }
 
 .dropdown:hover .dropdown-content {

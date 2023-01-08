@@ -47,7 +47,7 @@ nav {
 }
 
 .blog-container img {
-    width: 154px;
+    width: 200px;
     border-radius: 5px;
 }
 
@@ -64,6 +64,17 @@ nav {
     margin-left: 20px;
 }
 
+.caption>a {
+    display: block;
+    text-align: right;
+    text-decoration: none;
+    color: #FFCCCC;
+}
+
+.caption>p {
+    padding-right: 10%;
+}
+
 .category {
     color: #FAE1DF;
 }
@@ -72,6 +83,7 @@ nav {
     position: relative;
     display: inline-block;
     font-family: 'Goudy Old Style', 'Candara Light', 'Bell MT', Times, serif;
+    border-radius: 20px;
 }
 
 .dropbtn {
@@ -96,6 +108,7 @@ nav {
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
+    border-radius: 5px;
 }
 
 .dropdown-content :hover {
@@ -152,4 +165,5 @@ nav {
 
 .thumbnails {
     display: flex;
+    margin-bottom: 60px;
 }
