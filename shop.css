@@ -1,0 +1,248 @@
+* {
+    box-sizing: border-box;
+}
+
+/* ***************
+    TAGS
+***************** */
+
+body {
+    background-color: #1f3e3e;
+    color: white;
+    font-family: 'Goudy Old Style', 'Candara Light', 'Bell MT', Times, serif;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    background-color: #FFCCCC;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+h1.title {
+    font-size: 2em;
+}
+
+nav {
+    background-color: #1f3e3e;
+}
+
+/* ***************
+    CLASSES
+***************** */
+
+.shop-product button {
+    border: 1.5px solid #FFCCCC;
+    background-color: #FFCCCC;
+    border-radius: 5px;
+    color: #0d1f2d;
+    font-size: 15px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 64px;
+    padding-right: 64px;
+}
+
+.shop-product button:focus {
+    border: 1.5px solid #FFCCCC;
+    background-color: #9ea3b0;
+    border-radius: 5px;
+    color: #FFCCCC;
+    font-size: 15px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 64px;
+    padding-right: 64px;
+}
+
+.home-container {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.brand-logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    margin-bottom: 60px;
+    margin-top: 60px;
+}
+
+.col1 {
+    margin-right: 80px;
+}
+
+.col1>a,
+.col2>a {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    font-family: 'Goudy Old Style', 'Candara Light', 'Bell MT', Times, serif;
+}
+
+.dropbtn {
+    background-color: transparent;
+    padding: 0;
+    color: #FFCCCC;
+    font-size: medium;
+    margin-right: 60px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Goudy Old Style', 'Candara Light', 'Bell MT', Times, serif;
+}
+
+.dropbtn:hover {
+    color: #FAE1DF;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #FFCCCC;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border-radius: 5px;
+}
+
+.dropdown-content a {
+    color: #1f3e3e;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    color: #1f3e3e;
+}
+
+.dropdown-content :hover {
+    background-color: #9ea3b0
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: transparent;
+}
+
+.foot-links {
+    display: flex;
+    justify-content: center;
+}
+
+.foot-links a {
+    text-decoration: none;
+    color: #1f3e3e;
+    display: block;
+}
+
+.foot-logo {
+    width: 250px;
+    display: block;
+}
+
+.footer-subscribe>p {
+    color: #1f3e3e;
+    font-size: 2em;
+}
+
+.footer-subscribe>input {
+    border: 1.5px solid #0d1f2d;
+    border-radius: 5px;
+    padding: 8px;
+    font-size: 15px;
+    background-color: #f9efee;
+    color: #0d1f2d;
+}
+
+.footer-subscribe>button {
+    border: 1.5px solid #0d1f2d;
+    background-color: #0d1f2d;
+    border-radius: 5px;
+    color: #FFCCCC;
+    font-size: 15px;
+    padding: 8px;
+}
+
+.footer-subscribe>img {
+    height: 20px;
+    width: 20px;
+    margin-right: 5px;
+    margin-top: 2em;
+}
+
+.shop-banner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) url(Assets/shop.jpg);
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-bottom: 1.5em;
+    margin-top: 1.5em;
+}
+
+.navbar {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.navbar>a {
+    color: #FFCCCC;
+    text-decoration: none;
+    margin-right: 60px;
+}
+
+.navbar a:hover {
+    color: #FAE1DF;
+}
+
+.shop {
+    display: flex;
+    text-align: center;
+}
+
+.shop p {
+    margin-top: 0;
+}
+
+.product-view {
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+.product-view>img {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 1em;
+    border-radius: 5px;
+}
+
+.search {
+    background-color: transparent;
+    border: none;
+    color: white;
+    float: right;
+}
+
+.search:focus {
+    outline: none;
+    font-size: larger;
+}
