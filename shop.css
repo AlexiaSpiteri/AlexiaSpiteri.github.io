@@ -154,12 +154,26 @@ nav {
 }
 
 .footer-subscribe>button {
-    border: 1.5px solid #0d1f2d;
-    background-color: #0d1f2d;
+    background-color: transparent;
     border-radius: 5px;
-    color: #FFCCCC;
+    border: 2px solid black;
+    color: #1f3e3e;
     font-size: 15px;
     padding: 8px;
+    text-align: center;
+    font-family: 'Goudy Old Style', 'Candara Light', 'Bell MT', Times, serif;
+}
+
+.footer-subscribe>button:hover {
+    background-color: #f9efee;
+    border: 2px solid #f9efee;
+    color: #1f3e3e;
+    border-radius: 5px;
+    padding: 8px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    cursor: pointer;
 }
 
 .footer-subscribe>img {
@@ -294,11 +308,12 @@ nav {
 }
 
 .filter-button {
-    background-color: #FAE1DF;
+    background-color: transparent;
     border-radius: 5px;
     padding: 0;
-    color: #0d1f2d;
+    color: #FFCCCC;
     font-size: 20px;
+    text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 30px;
@@ -310,7 +325,8 @@ nav {
 }
 
 .filter-button:hover {
-    color: #9ea3b0;
+    color: #FFCCCC;
+    cursor: pointer;
 }
 
 .filter-dropdown {

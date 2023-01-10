@@ -162,16 +162,41 @@ nav {
 }
 
 .footer-subscribe>button {
-    background-color: #0d1f2d;
+    background-color: transparent;
     border-radius: 5px;
-    color: #FFCCCC;
+    border: 2px solid black;
+    color: #1f3e3e;
     font-size: 15px;
     padding: 8px;
+    text-align: center;
+    font-family: 'Goudy Old Style', 'Candara Light', 'Bell MT', Times, serif;
 }
 
 .footer-subscribe>button:hover {
-    background-color: #314949;
+    background-color: #f9efee;
+    border: 2px solid #f9efee;
+    color: #1f3e3e;
+    border-radius: 5px;
+    padding: 8px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.send>a:link,
+.send>a:visited {
+    background-color: transparent;
     color: #FFCCCC;
+    border: 2px solid rgb(250, 225, 223);
+    border-radius: 5px;
+    padding: 12px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    cursor: pointer;
+    width: 400px;
 }
 
 .footer-subscribe>img {
@@ -224,9 +249,9 @@ nav {
     left: 25%;
     top: 33%;
     width: 50%;
-    background-color: rgba(255, 204, 204, 0.5);
     filter: contrast(1);
     color: black;
+    border-radius: 5px;
 }
 
 .section>p {
@@ -259,7 +284,7 @@ nav {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 15px;
+    font-size: 20px;
     cursor: pointer;
     width: 400px;
 }
