@@ -293,3 +293,8 @@ nav {
     outline: none;
     font-size: larger;
 }
+
+.footer-subscribe>button:hover {
+    background-color: #314949;
+    color: #FFCCCC;
+}

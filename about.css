@@ -216,3 +216,8 @@ nav {
 .subtitle-text {
     margin-bottom: 60px;
 }
+
+.footer-subscribe>button:hover {
+    background-color: #314949;
+    color: #FFCCCC;
+}

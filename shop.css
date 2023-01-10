@@ -347,3 +347,8 @@ nav {
     display: flex;
     justify-content: center;
 }
+
+.footer-subscribe>button:hover {
+    background-color: #314949;
+    color: #FFCCCC;
+}
