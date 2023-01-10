@@ -227,7 +227,7 @@ nav {
     margin-right: 40px;
     text-align: justify;
     margin-bottom: 40px;
-    font-size: 15px;
+    font-size: 20px;
     font-family: 'Goudy Old Style', 'Candara Light', 'Bell MT', Times, serif;
     line-height: 1.5;
 }
@@ -241,14 +241,14 @@ nav {
     color: #0d1f2d;
     margin-right: 100px;
     margin-bottom: 40px;
-    font-size: 15px;
+    font-size: 20px;
     font-family: 'Goudy Old Style', 'Candara Light', 'Bell MT', Times, serif;
     line-height: 1.5;
 }
 
 .text .message {
     height: 200px;
-    font-size: 15px;
+    font-size: 20px;
     font-family: 'Goudy Old Style', 'Candara Light', 'Bell MT', Times, serif;
     line-height: 1.5;
 }
@@ -258,7 +258,7 @@ nav {
     border-radius: 5px;
     border: 2px solid #FAE1DF;
     color: #FFCCCC;
-    font-size: 15px;
+    font-size: 20px;
     padding: 12px 20px;
     text-align: center;
     cursor: pointer;

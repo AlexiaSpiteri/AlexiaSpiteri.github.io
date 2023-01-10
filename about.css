@@ -163,12 +163,26 @@ nav {
 }
 
 .footer-subscribe>button {
-    border: 1.5px solid #0d1f2d;
-    background-color: #0d1f2d;
+    background-color: transparent;
     border-radius: 5px;
-    color: #FFCCCC;
+    border: 2px solid black;
+    color: #1f3e3e;
     font-size: 15px;
     padding: 8px;
+    text-align: center;
+    font-family: 'Goudy Old Style', 'Candara Light', 'Bell MT', Times, serif;
+}
+
+.footer-subscribe>button:hover {
+    background-color: #f9efee;
+    border: 2px solid #f9efee;
+    color: #1f3e3e;
+    border-radius: 5px;
+    padding: 8px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    cursor: pointer;
 }
 
 .footer-subscribe>img {
@@ -215,9 +229,4 @@ nav {
 
 .subtitle-text {
     margin-bottom: 60px;
-}
-
-.footer-subscribe>button:hover {
-    background-color: #314949;
-    color: #FFCCCC;
 }
