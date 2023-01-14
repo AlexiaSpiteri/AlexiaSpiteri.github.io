@@ -46,6 +46,16 @@ textarea {
     CLASSES
 ***************** */
 
+reviews-container {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 60px;
+}
+
+.reviews-post {
+    display: flex;
+}
+
 .brand-logo {
     display: block;
     margin-left: auto;
@@ -286,10 +296,52 @@ textarea {
     left: 25%;
     top: 42.5%;
     width: 50%;
-    background-color: rgba(255, 204, 204, 0.5);
     margin-left: auto;
     margin-right: auto;
     filter: brightness(1);
     filter: contrast(1);
     color: black;
+    font-size: 2em;
+    background-color: rgba(255, 204, 204, 0.5);
 }
+
+.reviews-container {
+    width: 100%;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: #1f3e3e;
+}
+
+.voted {
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+}
+
+.per {
+    width: 58%;
+    background-color: #FFC2C8;
+}
+
+.exc {
+    width: 14.3%;
+    background-color: #A55265;
+}
+
+.okay {
+    width: 12.9%;
+    background-color: #861657;
+}
+
+.bad {
+    width: 6.7%;
+    background-color: #70AE6E;
+}
+
+.horrible {
+    width: 8.1%;
+    background-color: #3C6E71;
+}
+
+/* Dark Grey */
