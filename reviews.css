@@ -351,6 +351,8 @@ reviews-container {
 
 .ratings .score>img {
     width: 95px;
+    height: 20px;
+    margin-right: 20px;
 }
 
 .results {
@@ -368,5 +370,10 @@ reviews-container {
 .sub-rev {
     display: flex;
     margin-bottom: 60px;
+    align-items: center;
+}
+
+.score {
+    display: flex;
     align-items: center;
 }
