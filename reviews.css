@@ -26,8 +26,6 @@ footer {
     padding-right: 10%;
 }
 
-
-
 nav {
     background-color: #1f3e3e;
 }
@@ -41,29 +39,15 @@ textarea {
 }
 
 
-
 /* ***************
     CLASSES
 ***************** */
 
-reviews-container {
+.bad {
+    width: 6.7%;
+    background-color: #70AE6E;
+    border-radius: 5px;
     margin-left: 10%;
-    margin-right: 10%;
-    margin-bottom: 60px;
-}
-
-.reviews-post {
-    box-sizing: border-box;
-    display: block;
-}
-
-.brand-logo {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 400px;
-    margin-bottom: 60px;
-    margin-top: 60px;
 }
 
 .banner {
@@ -75,6 +59,15 @@ reviews-container {
     margin-bottom: 60px;
     height: 600px;
     filter: contrast(50%);
+}
+
+.brand-logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    margin-bottom: 60px;
+    margin-top: 60px;
 }
 
 .col1 {
@@ -99,31 +92,12 @@ reviews-container {
     background-color: transparent;
 }
 
-.sub-rev>button {
-    background-color: transparent;
-    border-radius: 5px;
-    border: 2px solid #FAE1DF;
-    color: #FFCCCC;
-    font-size: 20px;
-    padding: 12px;
-    width: 200px;
-    text-align: center;
-    cursor: pointer;
-    margin-left: 0;
-    font-family: 'Goudy Old Style', 'Candara Light', 'Bell MT', Times, serif;
-}
-
-.sub-rev>button:hover {
-    background-color: #f9efee;
-    border: 2px solid #f9efee;
-    color: #1f3e3e;
-    text-decoration: none;
-}
-
-.dropdown {
-    position: relative;
-    display: inline-block;
-    font-family: 'Goudy Old Style', 'Candara Light', 'Bell MT', Times, serif;
+.cus-rev {
+    font-size: 24px;
+    padding-bottom: 0;
+    font-weight: 700;
+    line-height: 32px;
+    margin-bottom: 16px;
 }
 
 .dropbtn {
@@ -139,6 +113,12 @@ reviews-container {
 
 .dropbtn:hover {
     color: #FAE1DF;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    font-family: 'Goudy Old Style', 'Candara Light', 'Bell MT', Times, serif;
 }
 
 .dropdown-content {
@@ -172,6 +152,13 @@ reviews-container {
 
 .dropdown:hover .dropbtn {
     background-color: transparent;
+}
+
+.exc {
+    width: 14.3%;
+    background-color: #A55265;
+    border-radius: 5px;
+    margin-left: 10%;
 }
 
 .foot-links {
@@ -234,6 +221,13 @@ reviews-container {
     margin-top: 2em;
 }
 
+.horrible {
+    width: 8.1%;
+    background-color: #3C6E71;
+    border-radius: 5px;
+    margin-left: 10%;
+}
+
 .navbar {
     margin-top: 20px;
     margin-bottom: 20px;
@@ -251,60 +245,6 @@ reviews-container {
     color: #FAE1DF;
 }
 
-.search {
-    background-color: transparent;
-    border: none;
-    color: white;
-    float: right;
-}
-
-.search:focus {
-    outline: none;
-    font-size: larger;
-}
-
-.title {
-    text-align: center;
-    position: absolute;
-    left: 25%;
-    top: 42.5%;
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
-    filter: brightness(1);
-    filter: contrast(1);
-    color: black;
-    font-size: 2em;
-    background-color: rgba(255, 204, 204, 0.5);
-}
-
-.reviews-container {
-    margin-left: 10%;
-    margin-right: 10%;
-}
-
-.results .voted {
-    text-align: right;
-    padding-top: 10px;
-    padding-right: 10px;
-    padding-bottom: 10px;
-    color: white;
-}
-
-.per {
-    width: 58%;
-    background-color: #FFC2C8;
-    border-radius: 5px;
-    margin-left: 10%;
-}
-
-.exc {
-    width: 14.3%;
-    background-color: #A55265;
-    border-radius: 5px;
-    margin-left: 10%;
-}
-
 .okay {
     width: 12.9%;
     background-color: #861657;
@@ -312,26 +252,11 @@ reviews-container {
     margin-left: 10%;
 }
 
-.bad {
-    width: 6.7%;
-    background-color: #70AE6E;
+.per {
+    width: 58%;
+    background-color: #FFC2C8;
     border-radius: 5px;
     margin-left: 10%;
-}
-
-.horrible {
-    width: 8.1%;
-    background-color: #3C6E71;
-    border-radius: 5px;
-    margin-left: 10%;
-}
-
-.cus-rev {
-    font-size: 24px;
-    padding-bottom: 0;
-    font-weight: 700;
-    line-height: 32px;
-    margin-bottom: 16px;
 }
 
 .rate {
@@ -360,11 +285,40 @@ reviews-container {
     align-items: center;
 }
 
-.sub-rev>img {
-    width: 245px;
-    height: 25px;
-    margin-left: 60%;
-    margin-right: 60px;
+.results .voted {
+    text-align: right;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    color: white;
+}
+
+reviews-container {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 60px;
+}
+
+.reviews-post {
+    box-sizing: border-box;
+    display: block;
+}
+
+.score {
+    display: flex;
+    align-items: center;
+}
+
+.search {
+    background-color: transparent;
+    border: none;
+    color: white;
+    float: right;
+}
+
+.search:focus {
+    outline: none;
+    font-size: larger;
 }
 
 .sub-rev {
@@ -373,7 +327,45 @@ reviews-container {
     align-items: center;
 }
 
-.score {
-    display: flex;
-    align-items: center;
+.sub-rev>button {
+    background-color: transparent;
+    border-radius: 5px;
+    border: 2px solid #FAE1DF;
+    color: #FFCCCC;
+    font-size: 20px;
+    padding: 12px;
+    width: 200px;
+    text-align: center;
+    cursor: pointer;
+    margin-left: 0;
+    font-family: 'Goudy Old Style', 'Candara Light', 'Bell MT', Times, serif;
+}
+
+.sub-rev>button:hover {
+    background-color: #f9efee;
+    border: 2px solid #f9efee;
+    color: #1f3e3e;
+    text-decoration: none;
+}
+
+.sub-rev>img {
+    width: 245px;
+    height: 25px;
+    margin-left: 60%;
+    margin-right: 60px;
+}
+
+.title {
+    text-align: center;
+    position: absolute;
+    left: 25%;
+    top: 42.5%;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    filter: brightness(1);
+    filter: contrast(1);
+    color: black;
+    font-size: 2em;
+    background-color: rgba(255, 204, 204, 0.5);
 }
