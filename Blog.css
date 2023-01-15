@@ -79,7 +79,6 @@ nav {
     color: #FAE1DF;
 }
 
-
 .col1 {
     margin-right: 80px;
 }
@@ -88,13 +87,6 @@ nav {
 .col2>a {
     margin-top: 10px;
     margin-bottom: 10px;
-}
-
-.dropdown {
-    position: relative;
-    display: inline-block;
-    font-family: 'Goudy Old Style', 'Candara Light', 'Bell MT', Times, serif;
-    border-radius: 20px;
 }
 
 .dropbtn {
@@ -110,6 +102,13 @@ nav {
 
 .dropbtn:hover {
     color: #FAE1DF;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    font-family: 'Goudy Old Style', 'Candara Light', 'Bell MT', Times, serif;
+    border-radius: 20px;
 }
 
 .dropdown-content {
