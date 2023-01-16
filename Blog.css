@@ -215,6 +215,7 @@ nav {
     color: #FFCCCC;
     text-decoration: none;
     margin-right: 60px;
+    letter-spacing: 1.5px;
 }
 
 .navbar a:hover {

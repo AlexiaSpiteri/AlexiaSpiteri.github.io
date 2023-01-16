@@ -208,6 +208,7 @@ nav {
     color: #FFCCCC;
     text-decoration: none;
     margin-right: 60px;
+    letter-spacing: 1.5px;
 }
 
 .navbar a:hover {
@@ -276,5 +277,5 @@ nav {
 .send>a:active {
     background-color: #0d1f2d;
     color: #FAE1DF;
-    bborder: 2px solid rgb(250, 225, 223);
+    border: 2px solid rgb(250, 225, 223);
 }
