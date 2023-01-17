@@ -118,6 +118,7 @@ textarea {
 .dropdown {
     position: relative;
     display: inline-block;
+    letter-spacing: 1.5px;
     font-family: 'Goudy Old Style', 'Candara Light', 'Bell MT', Times, serif;
 }
 
@@ -350,10 +351,10 @@ textarea {
 }
 
 .sub-rev>img {
-    width: 245px;
-    height: 25px;
+    width: 180px;
+    height: 23px;
     margin-left: 60%;
-    margin-right: 60px;
+    margin-right: 77px;
 }
 
 .title {
