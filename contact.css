@@ -234,7 +234,7 @@ nav {
     line-height: 1.5;
 }
 
-.text>input {
+.text>form>input {
     border: 1.5px solid #0d1f2d;
     border-radius: 5px;
     padding: 16px;
@@ -255,7 +255,7 @@ nav {
     line-height: 1.5;
 }
 
-.text>button {
+.text>form>button {
     background-color: transparent;
     border-radius: 5px;
     border: 2px solid #FAE1DF;
